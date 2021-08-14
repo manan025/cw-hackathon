@@ -1,0 +1,100 @@
+.adoptinfo {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.adoptinfo h1 {
+  color: #00504b;
+  margin-top: 50px;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.contactadopt form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contactadopt h2 {
+  color: #00504b;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+}
+.contactadopt form input {
+  width: 650px;
+  height: 50px;
+  background: #ff9200;
+  border: none;
+  outline: none;
+  margin-top: 30px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: "Lufga";
+  padding-left: 10px;
+}
+.flexhai {
+  display: flex;
+  justify-content: space-between;
+  max-width: 50%;
+  margin: auto;
+  margin-top: 30px;
+}
+.inputss input {
+  width: 320px;
+  border: none;
+  outline: none;
+  background: #ff9200;
+  margin-top: 20px;
+  height: 45px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-family: "Lufga";
+  font-size: 1.1rem;
+  margin-left: 50px;
+}
+.house p {
+  font-size: 1.7rem;
+  color: #00504b;
+  font-weight: 900;
+}
+.house h3 {
+  font-family: "Lufga", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 20px;
+}
+@media screen and (max-width: 960px) {
+  .adoptinfo {
+    max-width: 100%;
+    margin: auto;
+  }
+  .adoptinfo h1 {
+    font-size: 1.4rem;
+  }
+  .adoptinfo h2 {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .contactadopt form input {
+    max-width: 340px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .flexhai {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .inputss input {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+  }
+}

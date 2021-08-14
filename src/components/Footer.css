@@ -1,0 +1,35 @@
+.footer {
+  max-width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.footflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.social i {
+  color: var(--primary-color);
+  margin-left: 20px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.social i:hover {
+  color: var(--suporting-color);
+}
+.footflex p {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 960px) {
+  .footflex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footflex p {
+    font-size: 1rem;
+  }
+}

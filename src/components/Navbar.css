@@ -1,0 +1,85 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-links li {
+  list-style: none;
+  border-bottom: #008880;
+}
+.nav-links a {
+  text-decoration: none;
+  padding-left: 20px;
+  color: black;
+  font-family: "Lufga";
+  font-size: 1.3rem;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+.nav-links a:hover {
+  color: #008880;
+}
+.logo {
+  width: 100px;
+  padding-top: 5px;
+}
+.btn-signin {
+  width: 80px;
+  height: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #008880;
+  font-family: "Lufga";
+  font-weight: 500;
+  color: white;
+}
+.logo {
+  width: 80px;
+}
+@media screen and (max-width: 960px) {
+  nav {
+    max-width: 340px;
+    margin: auto;
+  }
+  .nav-links {
+    max-width: 340px;
+    margin: auto;
+    position: absolute;
+    top: 18%;
+    left: 0;
+    margin-top: 20px;
+  }
+  .nav-links a {
+    font-size: 1rem;
+  }
+  .btn-signin {
+    width: 70px;
+    height: 25px;
+    font-size: 1rem;
+  }
+  .menu-bars {
+    position: absolute;
+    top: 7%;
+  }
+  .logo {
+    width: 70px;
+    display: flex;
+    justify-content: end;
+    max-width: 100%;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 220px;
+    margin-top: 20px;
+  }
+}

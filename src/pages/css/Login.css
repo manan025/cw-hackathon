@@ -1,0 +1,85 @@
+.login {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login h1 {
+  color: #00504b;
+  margin-top: 50px;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.login p {
+  color: #008880;
+  font-size: 1.3rem;
+  margin-top: 5px;
+}
+.login input {
+  width: 350px;
+  height: 50px;
+  margin-top: 30px;
+  border: none;
+  outline: none;
+  background: #ff9200;
+  border-radius: 10px;
+  font-family: "Lufga";
+  font-size: 1.2rem;
+  padding-left: 10px;
+  color: #3a3a3a;
+}
+.account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.account a {
+  color: #412500;
+  font-family: "Lufga";
+  font-size: 1rem;
+  padding-left: 5px;
+}
+.login button {
+  width: 175px;
+  height: 35px;
+  background: #008880;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: "Lufga";
+  font-size: 1.3rem;
+  color: white;
+}
+.login img {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 100px;
+}
+.account h4 {
+  font-family: "Lufga", sans-serif;
+  font-size: 1rem;
+  color: #ff9200;
+}
+@media screen and (max-width: 960px) {
+  .login {
+    max-width: 100%;
+    margin: auto;
+  }
+  .login h1 {
+    font-size: 2rem;
+  }
+  .login p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .login input {
+    max-width: 340px;
+    margin: auto;
+    margin-top: 40px;
+  }
+}

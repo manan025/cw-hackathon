@@ -1,0 +1,94 @@
+.food {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.food h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin-top: 50px;
+  color: #00504b;
+}
+.food p {
+  color: #008880;
+  margin-top: 5px;
+  font-size: 1.4rem;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+  max-width: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
+.days {
+  /* border: 1px solid red; */
+  margin: 20px;
+  width: 450px;
+  background: #ff9200;
+  border-radius: 20px;
+  height: 250px;
+}
+.days h2 {
+  color: #00504b;
+  font-weight: 900;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.days p {
+  font-size: 1.2rem;
+  color: var(--supporting-color);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.days span {
+  color: #a60000;
+  margin-top: 20px;
+  /* margin-left: 20px; */
+}
+.addicon {
+  background: #34495e;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  position: relative;
+  margin-top: 30px;
+}
+.addicon i {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  color: white;
+}
+@media screen and (max-width: 960px) {
+  .food {
+    max-width: 100%;
+    margin: auto;
+  }
+  .food h1 {
+    font-size: 2rem;
+  }
+  .food p {
+    font-size: 1.2rem;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .days {
+    max-width: 340px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .days h2 {
+    font-size: 1.4rem;
+  }
+  .days p {
+    font-size: 1.1rem;
+  }
+}

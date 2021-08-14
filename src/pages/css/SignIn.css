@@ -1,0 +1,88 @@
+.signin {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signin h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 50px;
+  color: #00504b;
+}
+.signDesc {
+  font-size: 1.5rem;
+  color: #00847c;
+  margin-top: 20px;
+}
+.signin img {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 100px;
+}
+.add {
+  color: #ff9200;
+  font-family: "Lufga";
+  font-size: 1rem;
+  margin-top: 5px;
+}
+.form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form form input {
+  width: 350px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: #ff9200;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-family: "Lufga";
+  font-size: 1rem;
+  padding-left: 10px;
+  color: #3a3a3a;
+}
+.form form button {
+  width: 175px;
+  height: 35px;
+  background: #008880;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: "Lufga";
+  font-size: 1.3rem;
+  color: white;
+}
+.gadhe {
+  margin-top: 20px;
+  color: #ff9200;
+}
+.gadhe a {
+  color: #412500;
+}
+@media screen and (max-width: 960px) {
+  .signin {
+    max-width: 100%;
+    margin: auto;
+  }
+  .signin h1 {
+    font-size: 2rem;
+  }
+  .signDesc {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .form form input {
+    max-width: 330px;
+    margin: auto;
+    height: 45px;
+    margin-top: 20px;
+  }
+}

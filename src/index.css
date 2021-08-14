@@ -1,0 +1,42 @@
+:root {
+  --primary-color: #ff9200;
+  /* --primary-color: #031b67; */
+  --secondary-color: #008880;
+  /* --suporting-color: #ce6aa2; */
+  /* --suporting-color: #f9842c; */
+  --suporting-color: #000000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 100%;
+  margin: auto;
+}
+h1 {
+  font-family: "Lufga", sans-serif;
+  font-weight: 900;
+  color: var(--primary-color);
+}
+p {
+  font-family: "Lufga", sans-serif;
+  font-weight: 500;
+}
+h2 {
+  font-family: "Lufga", sans-serif;
+  font-weight: 600;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--secondary-color);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}

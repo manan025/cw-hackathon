@@ -1,0 +1,96 @@
+.infos {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.infos h1 {
+  color: #00504b;
+  margin-top: 50px;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.infos p {
+  color: #008880;
+  font-size: 1.3rem;
+  margin-top: 5px;
+}
+.info form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.info form input {
+  width: 350px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: #ff9200;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-family: "Lufga";
+  font-size: 1rem;
+  padding-left: 10px;
+}
+.info form button {
+  width: 175px;
+  height: 35px;
+  background: #00504b;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: "Lufga";
+  font-size: 1.3rem;
+  color: white;
+}
+.searchflex input {
+  width: 550px;
+  height: 50px;
+  background: #e2e2e2;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-top: 40px;
+  font-family: "Lufga";
+  font-size: 1.3rem;
+  padding-left: 10px;
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.icon1 {
+  width: 75px;
+  margin: auto;
+  background: #ffbf69;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 960px) {
+  .infos {
+    max-width: 100%;
+    margin: auto;
+  }
+  .infos h1 {
+    font-size: 2rem;
+  }
+  .infos p {
+    font-size: 1.2rem;
+  }
+  .info form input {
+    max-width: 340px;
+    margin: auto;
+    margin-top: 30px;
+  }
+}

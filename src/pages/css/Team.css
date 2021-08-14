@@ -1,0 +1,102 @@
+.team {
+  max-width: 90%;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team h1 {
+  font-size: 2.1rem;
+  font-weight: 900;
+  color: #00504b;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.flexpeople {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 60%;
+  margin: auto;
+  margin-top: 100px;
+}
+.flexpeople h2 {
+  color: #ff9200;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.gaurika {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.flexpeople p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #008880;
+}
+.gaurika h2 {
+  color: #ff9200;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.gaurika p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #008880;
+  margin-bottom: 10px;
+}
+.gaurika img {
+  width: 220px;
+  height: 220px;
+  border-radius: 200px;
+}
+.bande img {
+  width: 220px;
+  height: 220px;
+  border-radius: 200px;
+}
+@media screen and (max-width: 960px) {
+  .team {
+    max-width: 100%;
+    margin: auto;
+  }
+  .team h1 {
+    font-size: 1.5rem;
+    max-width: 340px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .flexpeople {
+    max-width: 100%;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .flexpeople h2 {
+    font-size: 1.5rem;
+  }
+  .flexpeople p {
+    font-size: 1.4rem;
+  }
+  .gaurika h2 {
+    font-size: 1.5rem;
+  }
+  .gaurika p {
+    font-size: 1.4rem;
+  }
+  .gaurika img {
+    width: 180px;
+    height: 180px;
+    border-radius: 200px;
+  }
+  .bande img {
+    width: 180px;
+    height: 180px;
+    border-radius: 200px;
+  }
+}

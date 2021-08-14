@@ -1,0 +1,157 @@
+.community {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.community h1 {
+  color: #00504b;
+  margin-top: 50px;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.community p {
+  color: #008880;
+  font-size: 1.3rem;
+  margin-top: 5px;
+}
+.searchflex i {
+  padding-right: 5px;
+  padding-top: 10px;
+  color: rgb(116, 94, 94);
+}
+.community_cards {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background: #ff9200;
+  height: 340px;
+  width: 850px;
+}
+.community_cards img {
+  max-width: 80px;
+  height: 80px;
+  margin-left: 20px;
+  border-radius: 100px;
+}
+.photo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  height: 100%;
+}
+.boys {
+  font-size: 1rem;
+  font-family: "Lufga";
+}
+.fa-share-alt {
+  color: #d73400;
+  margin-top: 10px;
+}
+.names {
+  font-size: 1.7rem;
+  font-family: "Lufga";
+  color: #d73400;
+}
+.description {
+  max-width: 800px;
+}
+.description p {
+  color: black;
+  margin-bottom: 20px;
+  margin-left: 75px;
+}
+.likes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+.likes i {
+  color: white;
+  font-size: 1.7rem;
+  padding-left: 30px;
+}
+.likes span {
+  font-family: "Lufga", sans-serif;
+  font-size: 1.2rem;
+  padding-left: 5px;
+}
+@media screen and (max-width: 960px) {
+  .comunity {
+    max-width: 100%;
+    margin: auto;
+  }
+  .community h1 {
+    font-size: 2rem;
+  }
+  .community p {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .community input {
+    max-width: 280px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .community_cards {
+    flex-direction: column;
+    max-width: 340px;
+    margin: auto;
+    margin-top: 50px;
+    height: 400px;
+  }
+  .community_cards img {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 0;
+  }
+  .photo {
+    max-width: 330px;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .description {
+    max-width: 330px;
+    margin: auto;
+  }
+  .description p {
+    font-size: 1rem;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .names {
+    font-size: 1.3rem;
+    margin-top: 10px;
+  }
+  .boys {
+    font-size: 0.7rem;
+  }
+  .fa-share-alt {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .likes {
+    max-width: 330px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .likes i {
+    font-size: 1.2rem;
+    padding: 0;
+  }
+  .likes span {
+    font-size: 1rem;
+    padding: 0;
+  }
+}
