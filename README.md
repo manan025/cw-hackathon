@@ -1,3 +1,17 @@
+# Webiste
+
+You can visit our website [https://cw-hackathon.herokuapp.com/](https://cw-hackathon.herokuapp.com/) to try the website yourself.
+
+You can create you own account or use the following sample credentials:
+
+Email: abc@abc.com \
+Password: youarehacked
+
+Or
+
+Email: xyz@xyz.com \
+Password: youarehacked
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
