@@ -41,15 +41,15 @@ const SignIn = () => {
                 {/*{currentUser.email}*/}
                 <h1>Sign In</h1>
                 <p className="signDesc">Become a Part of the Care Tail Family Now !</p>
-                <img src={Profile} alt="bekar hai" />
+                <img src={Profile} alt="Unable to upload image." />
                 <Link to="/" className="add">Add Profile Picture</Link>
                 {error && <Alert variant="danger">{error}</Alert>}
                 <div className="form">
                     <form onSubmit={handleSubmit}>
-                        <input type="text" placeholder="Enter your email or phone number" ref={emailRef}/>
+                        <input type="text" placeholder="Enter your email" ref={emailRef}/>
                         <input type="password" placeholder="Password" ref={passwordRef}/>
                         <input type="password" placeholder="Confirm Password" ref={passwordConfRef}/>
-                        <button type="submit" disabled={loading}>Sign In</button>
+                        <button type="submit" disabled={loading}>Sign Up</button>
                     </form>
                 </div>
                 <p className="gadhe">Aleardy have an account ? <Link to="/login">Login</Link></p>

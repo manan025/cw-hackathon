@@ -27,7 +27,7 @@ const HeroSection = () => {
     return (
         <>
             {error && <Alert variant="danger">{error}</Alert> }
-            {currentUser && currentUser.email}
+            {/*{currentUser && currentUser.email}*/}
             <Sidebar/>
             <div className="heroflex">
                 <div className="textflex">

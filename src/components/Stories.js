@@ -13,12 +13,12 @@ const Stories = () => {
                             <img src={Story1} alt="" />
                         </div>
                         <div className="info">
-                        <h3>Peter Parker</h3>
-                        <h5>Actor</h5>
+                        <h3>Inesh Tickoo</h3>
+                        <h5>Vice President, CORE</h5>
                         </div>
                     </div>
                     <div className="explain">
-                        <p>Usually I like to forget stuff like a cool person, but I didn’t wanna forget anything important about Arlo, so after Amy (senior queen, organisation lover) told me about this website, I had to try it and honestly it was a great decision because anything  related to Arlo is always present at just a touch, and the website and app is hella user friendly. 10/10 would recommend.</p>
+                        <p>Usually I like to forget stuff like a cool person, but I didn’t wanna forget anything important about Arlo, so after Amy (senior queen, organisation lover) told me about this website, I had to try it and honestly it was a great decision because anything related to Arlo is always present at just a touch, and the website and app is hella user friendly. <br />10/10 would recommend.</p>
                     </div>
                 </div>
                 <div className="storycard">
@@ -27,8 +27,8 @@ const Stories = () => {
                             <img src={Story2} alt="" />
                         </div>
                         <div className="info">
-                        <h3>Chris Hemsworth</h3>
-                        <h5>Actor</h5>
+                        <h3>Hitarth Tickoo</h3>
+                        <h5>President, CORE</h5>
                         </div>
                     </div>
                     <div className="explain">

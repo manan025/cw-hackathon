@@ -36,8 +36,8 @@ const Login = () => {
                         <p>Welcome Back ! Log in to access your account</p>
                         <img src={Photo} alt="" />
                         {error && <Alert variant="danger">{error}</Alert> }
-                        <input type="text" placeholder="Email or Phone number" ref={emailRef}/>
-                        <input type="text" placeholder="Password" ref={passwordRef}/>
+                        <input type="text" placeholder="Email" ref={emailRef}/>
+                        <input type="password" placeholder="Password" ref={passwordRef}/>
                         <button type="submit">Log In</button>
                 </div>
             </form>
